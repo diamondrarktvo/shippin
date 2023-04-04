@@ -328,6 +328,21 @@ header .banniere .box_banniere p {
   line-height: 32px;
 }
 
+.services button {
+  color: #FE8D15;
+  background-color: transparent;
+  border: none;
+  padding: 16px 25px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 32px;
+}
+
+.services .box_service {
+  padding: 49px 144px;
+}
+
 .apropos .div_image {
   padding: 0px 168px 0px 30px;
 }
