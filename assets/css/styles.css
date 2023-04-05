@@ -358,6 +358,40 @@ header .banniere .box_banniere p {
   }
 }
 
+/*pourquoi nous*/
+.why_us_section {
+  background: -webkit-gradient(180deg,
+      #061328 42.26%,
+      rgba(6, 19, 40, 0.92) 90.08%,
+      rgba(6, 19, 40, 0.6) 117.52%), url(../images/index/camion.png);
+  background: linear-gradient(180deg,
+      #061328 42.26%,
+      rgba(6, 19, 40, 0.92) 90.08%,
+      rgba(6, 19, 40, 0.6) 117.52%), url(../images/index/camion_bg.png);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.button_caroussel_why {
+  background-color: transparent;
+  border: 1px solid white;
+  width: 75px;
+  height: 75px;
+  border-radius: 75px;
+}
+
+.card_caroussel {
+  height: 543px;
+  color: #fff;
+  border: 1px solid #fff;
+  margin-right: 33px
+}
+
+.bar_why {
+  height: 127px;
+  background: rgba(1, 8, 20, 0.5);
+}
+
 /*FOOTER*/
 footer {
   padding: 60px 150px;
