@@ -592,7 +592,531 @@
             </div>
           </div>
         </div>
-        <div class="bar_why col-12"></div>
+      </div>
+      <div class="bar_why col-9"></div>
+    </section>
+
+    <!-- section comparaison -->
+    <section class="container">
+      <div
+        class="d-flex flex-column align-items-center flex-lg-row"
+        style="
+          background-color: #fff;
+          box-shadow: 0px 10px 100px rgba(0, 0, 0, 0.15);
+          position: relative;
+          top: -60px;
+        ">
+        <div class="flex-column p-5" style="position: relative">
+          <p
+            style="
+              font-family: GraphikBold;
+              font-size: 45px;
+              line-height: 55px;
+            ">
+            Comparer les offres
+          </p>
+          <hr
+            style="
+              width: 81px;
+              height: 8px;
+              background-color: #fe8d15;
+              margin-bottom: 39px;
+            " />
+
+          <div class="d-flex flex-column">
+            <p
+              style="
+                font-family: GraphikBold;
+                font-size: 22px;
+                line-height: 55px;
+                text-transform: uppercase;
+              ">
+              Départ
+            </p>
+            <div
+              class="col-12 d-flex flex-column align-items-center flex-lg-row">
+              <input
+                title="date depart"
+                class="col-lg-3 col-12"
+                type="date"
+                style="
+                  padding: 10px 20px;
+                  border-radius: 2px;
+                  border: 1px solid rgba(42, 43, 42, 0.5);
+                " />
+              <select
+                style="padding: 13px 20px"
+                name="city"
+                title="city"
+                class="fa col-lg-3 my-lg-0 my-3 col-12 mx-3">
+                <option>Paris</option>
+                <option>France</option>
+              </select>
+              <input
+                title="postalcode"
+                class="col-lg-3 col-12"
+                placeholder="code postal ou ville*"
+                type="text"
+                style="
+                  padding: 10px 20px;
+                  border-radius: 2px;
+                  border: 1px solid rgba(42, 43, 42, 0.5);
+                " />
+            </div>
+            <div class="radio-buttons">
+              <label
+                style="
+                  font-family: Poppins;
+                  font-size: 18px;
+                  line-height: 55px;
+                  text-transform: lowercase;
+                ">
+                <input type="radio" name="option" value="professionnel" />
+                jE SUIS UN PROFESSIONNEL
+              </label>
+              <label
+                style="
+                  font-family: Poppins;
+                  font-size: 18px;
+                  line-height: 55px;
+                  text-transform: lowercase;
+                ">
+                <input type="radio" name="option" value="particulier" />
+                jE SUIS UN PARTICULIER
+              </label>
+            </div>
+          </div>
+
+          <div class="d-flex flex-column mt-4">
+            <p
+              style="
+                font-family: GraphikBold;
+                font-size: 22px;
+                line-height: 55px;
+                text-transform: uppercase;
+              ">
+              Arrivée
+            </p>
+            <div
+              class="col-12 d-flex flex-column align-items-center flex-lg-row">
+              <select
+                style="padding: 13px 20px"
+                name="city"
+                title="city"
+                class="fa col-lg-3 my-lg-0 my-3 col-12">
+                <option>Paris</option>
+                <option>France</option>
+              </select>
+              <input
+                title="postalcode"
+                class="col-lg-3 col-12 mx-lg-3 mx-0"
+                placeholder="code postal ou ville*"
+                type="text"
+                style="
+                  padding: 10px 20px;
+                  border-radius: 2px;
+                  border: 1px solid rgba(42, 43, 42, 0.5);
+                " />
+            </div>
+            <div class="radio-buttons">
+              <label
+                style="
+                  font-family: Poppins;
+                  font-size: 18px;
+                  line-height: 55px;
+                  text-transform: lowercase;
+                ">
+                <input type="radio" name="option" value="professionnel" />
+                jE SUIS UN PROFESSIONNEL
+              </label>
+              <label
+                style="
+                  font-family: Poppins;
+                  font-size: 18px;
+                  line-height: 55px;
+                  text-transform: lowercase;
+                ">
+                <input type="radio" name="option" value="particulier" />
+                jE SUIS UN PARTICULIER
+              </label>
+            </div>
+          </div>
+
+          <div class="d-flex flex-column mt-4">
+            <p
+              style="
+                font-family: GraphikBold;
+                font-size: 22px;
+                line-height: 55px;
+                text-transform: uppercase;
+              ">
+              Envoi
+            </p>
+            <div
+              class="d-flex flex-column align-items-center flex-lg-row justify-content-lg-around"
+              style="width: 403px; border: 1px solid rgba(42, 43, 42, 0.5)">
+              <label class="px-lg-3">
+                <i
+                  class="fa-solid fa-envelope"
+                  style="
+                    color: rgba(0, 0, 0, 0.5);
+                    width: 21.33px;
+                    height: 16px;
+                  "></i>
+                <span
+                  style="
+                    font-family: Poppins;
+                    text-transform: capitalize;
+                    font-size: 18px;
+                    line-height: 55px;
+                    color: rgba(0, 0, 0, 0.5);
+                  "
+                  >enveloppe</span
+                >
+              </label>
+              <label
+                style="background: rgba(254, 141, 21, 0.2)"
+                class="px-lg-3">
+                <i
+                  class="fa-solid fa-envelope"
+                  style="
+                    color: rgba(0, 0, 0, 0.5);
+                    width: 21.33px;
+                    height: 16px;
+                  "></i>
+                <span
+                  style="
+                    font-family: Poppins;
+                    text-transform: capitalize;
+                    font-size: 18px;
+                    line-height: 55px;
+                    color: rgba(0, 0, 0, 0.5);
+                  "
+                  >colis</span
+                >
+              </label>
+              <label class="px-lg-3">
+                <i
+                  class="fa-solid fa-envelope"
+                  style="
+                    color: rgba(0, 0, 0, 0.5);
+                    width: 21.33px;
+                    height: 16px;
+                  "></i>
+                <span
+                  style="
+                    font-family: Poppins;
+                    text-transform: capitalize;
+                    font-size: 18px;
+                    line-height: 55px;
+                    color: rgba(0, 0, 0, 0.5);
+                  "
+                  >palette</span
+                >
+              </label>
+            </div>
+            <div
+              class="d-flex flex-column align-items-center flex-lg-row"
+              style="margin-top: 12px">
+              <input
+                title="longueur"
+                class="col-lg-2 col-12"
+                placeholder="*L (cm)"
+                type="number"
+                style="
+                  padding: 10px 20px;
+                  border-radius: 2px;
+                  border: 1px solid rgba(42, 43, 42, 0.5);
+                " />
+              <input
+                title="largeur"
+                class="col-lg-2 col-12 mx-lg-3 mx-0 my-lg-0 my-1"
+                placeholder="*l (cm)"
+                type="number"
+                style="
+                  padding: 10px 20px;
+                  border-radius: 2px;
+                  border: 1px solid rgba(42, 43, 42, 0.5);
+                " />
+              <input
+                title="hauteur"
+                class="col-lg-2 col-12"
+                placeholder="*H (cm)"
+                type="number"
+                style="
+                  padding: 10px 20px;
+                  border-radius: 2px;
+                  border: 1px solid rgba(42, 43, 42, 0.5);
+                " />
+              <input
+                title="poids"
+                class="col-lg-2 col-12 mx-lg-3 mx-0 my-lg-0 my-1"
+                placeholder="*Poids (kg)"
+                type="number"
+                style="
+                  padding: 10px 20px;
+                  border-radius: 2px;
+                  border: 1px solid rgba(42, 43, 42, 0.5);
+                " />
+              <input
+                title="poids"
+                class="col-lg-2 col-12"
+                placeholder="Valeur (£)"
+                type="number"
+                style="
+                  padding: 10px 20px;
+                  border-radius: 2px;
+                  border: 1px solid rgba(42, 43, 42, 0.5);
+                " />
+            </div>
+            <div class="d-flex flex-row" style="margin-top: 23px">
+              <span
+                style="
+                  color: #fe8d15;
+                  border: 1px solid rgba(42, 43, 42, 0.5);
+                  width: 20px;
+                  height: 25px;
+                  padding: 0px 3px;
+                "
+                ><i class="fa-solid fa-plus"></i
+              ></span>
+              <p class="mx-2" style="font-family: Poppins; font-size: 18px">
+                Ajouter un colis
+              </p>
+            </div>
+            <div>
+              <input
+                title="longueur"
+                class="col-lg-3 col-12"
+                placeholder="Contenu (Ex: CD )"
+                type="text"
+                style="
+                  padding: 10px 20px;
+                  border-radius: 2px;
+                  border: 1px solid rgba(42, 43, 42, 0.5);
+                " />
+            </div>
+          </div>
+        </div>
+        <div class="flex-column" style="position: relative">
+          <div style="flex: 1">
+            <img
+              alt=""
+              src="assets/images/index/step.PNG"
+              class="img_comparaison" />
+          </div>
+          <div
+            class="d-flex flex-column"
+            style="
+              flex: 2;
+              position: absolute;
+              z-index: 2;
+              left: 40px;
+              bottom: 95px;
+            ">
+            <button
+              type="button"
+              style="
+                background-color: #fff;
+                font-weight: 700;
+                font-size: 16px;
+                margin-bottom: 25px;
+                padding: 20px 48px;
+                line-height: 32px;
+                color: #fe8d15;
+                border: none;
+              ">
+              Crée un compte
+            </button>
+            <button
+              type="button"
+              style="
+                background-color: #fe8d15;
+                text-align: center;
+                font-weight: 700;
+                border: none;
+                color: #fff;
+                font-size: 16px;
+                line-height: 25px;
+              ">
+              Contactez service <br />
+              commercial
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- témoignages -->
+    <section class="container">
+      <div
+        class="d-flex flex-column justify-content-center align-items-center"
+        style="margin-top: 105px">
+        <p
+          style="
+            font-family: 'GraphikBold';
+            font-size: 45px;
+            line-height: 55px;
+          ">
+          Témoignages
+        </p>
+        <p
+          class="col-8"
+          style="
+            font-family: 'Poppins';
+            font-size: 18px;
+            line-height: 32px;
+            text-align: center;
+            margin-bottom: 50px;
+          ">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu
+          turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec
+          fringilla accumsan, risus sem sollicitudin lacus.
+        </p>
+
+        <div
+          class="d-flex flex-column align-items-center flex-lg-row align-items-lg-center justify-content-lg-around">
+          <div class="card_tem_container" style="position: relative">
+            <img
+              alt=""
+              src="assets/images/index/localisation.png"
+              width="44"
+              height="44"
+              style="position: absolute; right: -20px; top: -20px" />
+            <div class="card_temoin p-4">
+              <div class="d-flex flex-row">
+                <div>
+                  <img
+                    alt=""
+                    src="assets/images/index/picture.png"
+                    width="60"
+                    height="60" />
+                </div>
+                <div class="d-flex flex-column mx-3">
+                  <p
+                    style="
+                      font-weight: 700;
+                      font-size: 21.3613px;
+                      line-height: 125%;
+                    ">
+                    Pierre Robert
+                  </p>
+                  <p
+                    style="
+                      font-family: 'Poppins';
+                      font-size: 15px;
+                      line-height: 125%;
+                    ">
+                    Directeur général de Soorcin
+                  </p>
+                </div>
+              </div>
+              <p
+                style="
+                  font-family: 'Poppins';
+                  font-size: 18px;
+                  line-height: 180%;
+                ">
+                Nous avons acquis une grande expérience des expéditions en full
+                container load
+              </p>
+            </div>
+          </div>
+          <div
+            class="card_tem_container card_item_mid mx-lg-4"
+            style="position: relative">
+            <img
+              alt=""
+              src="assets/images/index/localisation.png"
+              width="44"
+              height="44"
+              style="position: absolute; right: -20px; top: -20px" />
+            <div class="card_temoin p-4">
+              <div class="d-flex flex-row">
+                <div>
+                  <img
+                    alt=""
+                    src="assets/images/index/picture.png"
+                    width="60"
+                    height="60" />
+                </div>
+                <div class="d-flex flex-column mx-3">
+                  <p
+                    style="
+                      font-weight: 700;
+                      font-size: 21.3613px;
+                      line-height: 125%;
+                    ">
+                    Pierre Robert
+                  </p>
+                  <p
+                    style="
+                      font-family: 'Poppins';
+                      font-size: 15px;
+                      line-height: 125%;
+                    ">
+                    Directeur général de Soorcin
+                  </p>
+                </div>
+              </div>
+              <p
+                style="
+                  font-family: 'Poppins';
+                  font-size: 18px;
+                  line-height: 180%;
+                ">
+                Nous avons acquis une grande expérience des expéditions en full
+                container load
+              </p>
+            </div>
+          </div>
+          <div class="card_tem_container mt-5" style="position: relative">
+            <img
+              alt=""
+              src="assets/images/index/localisation.png"
+              width="44"
+              height="44"
+              style="position: absolute; right: -20px; top: -20px" />
+            <div class="card_temoin p-4">
+              <div class="d-flex flex-row">
+                <div>
+                  <img
+                    alt=""
+                    src="assets/images/index/picture.png"
+                    width="60"
+                    height="60" />
+                </div>
+                <div class="d-flex flex-column mx-3">
+                  <p
+                    style="
+                      font-weight: 700;
+                      font-size: 21.3613px;
+                      line-height: 125%;
+                    ">
+                    Pierre Robert
+                  </p>
+                  <p
+                    style="
+                      font-family: 'Poppins';
+                      font-size: 15px;
+                      line-height: 125%;
+                    ">
+                    Directeur général de Soorcin
+                  </p>
+                </div>
+              </div>
+              <p
+                style="
+                  font-family: 'Poppins';
+                  font-size: 18px;
+                  line-height: 180%;
+                ">
+                Nous avons acquis une grande expérience des expéditions en full
+                container load
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 

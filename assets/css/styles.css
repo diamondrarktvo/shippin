@@ -389,7 +389,69 @@ header .banniere .box_banniere p {
 
 .bar_why {
   height: 127px;
+  margin: auto;
   background: rgba(1, 8, 20, 0.5);
+}
+
+/*compare*/
+.radio-buttons {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.radio-buttons label {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.radio-buttons input[type="radio"] {
+  margin-right: 5px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+
+  padding: 10px;
+  border: 1px solid rgba(42, 43, 42, 0.5);
+  outline: none;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.radio-buttons input[type="radio"]:checked {
+  border-color: rgba(42, 43, 42, 0.5);
+  background-color: #FE8D15;
+}
+
+.img_comparaison {
+  height: 100%;
+  width: 300px;
+}
+
+/*temoignage*/
+.card_tem_container {
+  width: 362px;
+}
+
+.card_item_mid {
+  margin-top: 160px;
+}
+
+.card_temoin {
+  background: #FFFFFF;
+  border: 0.97097px solid rgba(69, 88, 128, 0.2);
+  box-shadow: 0px 3.88388px 29.1291px 4.85485px rgba(0, 0, 0, 0.05);
+  border-radius: 3.88388px;
+}
+
+@media screen and (max-width: 991px) {
+  .card_item_mid {
+    margin: 10px 0px;
+  }
 }
 
 /*FOOTER*/
