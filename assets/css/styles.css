@@ -454,6 +454,39 @@ header .banniere .box_banniere p {
   }
 }
 
+/*prestation*/
+.top_bar_prestation ul {
+  display: flex;
+}
+
+.top_bar_prestation ul li {
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 55px;
+  color: rgba(42, 43, 42, 0.7);
+  list-style: none;
+  margin-right: 32px;
+}
+
+.top_bar_prestation ul li.bar_selected_prestation {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 55px;
+  color: #2A2B2A;
+  border-bottom: 10px solid #FE8D15;
+}
+
+@media screen and (max-width: 768px) {
+  .top_bar_prestation ul {
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+  }
+}
+
 /*FOOTER*/
 footer {
   padding: 60px 150px;
