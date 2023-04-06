@@ -487,6 +487,14 @@ header .banniere .box_banniere p {
   }
 }
 
+/*article*/
+.card_article {
+  background: #FFFFFF;
+  border: 0.7px solid #DEE3EB;
+  border-radius: 10px;
+  margin-bottom: 23px;
+}
+
 /*FOOTER*/
 footer {
   padding: 60px 150px;
